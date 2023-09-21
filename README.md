@@ -23,7 +23,7 @@ Connects to another WebSocket server (server2_ws) and sends the sorted messages 
 
 Measures the time taken to send all ordered messages to server2_ws and prints it to the console.
 
-Handles unexpected disconnections from server1 by attempting to reconnect.
+Handles unexpected disconnections from server1_ws by attempting to reconnect.
 
 
 Usage:
