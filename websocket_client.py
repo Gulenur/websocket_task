@@ -18,8 +18,6 @@ def measure_time(func):
 candidate_surname = 'Gulenur'
 
 # by decorator measure the sending runtime
-
-
 @measure_time
 async def send_ordered_messages(last_message, candidate_surname):
     server2_ws = await websockets.connect(f"wss://test-ws.skns.dev/ordered-messages/{candidate_surname}")
